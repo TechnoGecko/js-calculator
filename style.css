@@ -1,0 +1,97 @@
+#app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: rgb(24, 17, 173);
+  background: -moz-linear-gradient(
+    43deg,
+    rgba(24, 17, 173, 1) 9%,
+    rgba(0, 13, 17, 1) 59%,
+    rgba(56, 70, 77, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    43deg,
+    rgba(24, 17, 173, 1) 9%,
+    rgba(0, 13, 17, 1) 59%,
+    rgba(56, 70, 77, 1) 100%
+  );
+  background: linear-gradient(
+    43deg,
+    rgba(24, 17, 173, 1) 9%,
+    rgba(0, 13, 17, 1) 59%,
+    rgba(56, 70, 77, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1811ad",endColorstr="#38464d",GradientType=1);
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.calculator {
+  padding: 5px;
+  border: 8px solid #f9ebff;
+  border-radius: 10px;
+
+  background: black;
+  width: 360px;
+  position: relative;
+}
+
+.formulaScreen {
+  min-height: 20px;
+  font-size: 20px;
+  color: orange;
+  text-align: right;
+  vertical-align: text-top;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.outputScreen {
+  font-size: 29px;
+  color: white;
+  text-align: right;
+  line-height: 35px;
+}
+
+button {
+  position: relative;
+  height: 65px;
+  width: 90px;
+  color: white;
+  outline: 1px solid black;
+  border: none;
+  background: #7b7485;
+  font-size: 20px;
+  border-radius: 20px;
+  cursor: default;
+}
+
+button:hover {
+  color: black;
+  outline: 0.05em solid #ffebcd;
+  z-index: 3;
+}
+
+.jumbo {
+  width: 180px;
+}
+
+.author {
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+}
+.author a {
+  text-decoration: none;
+  color: #971b8d;
+  line-height: 26px;
+}
